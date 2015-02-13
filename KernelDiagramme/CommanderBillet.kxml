@@ -328,7 +328,7 @@
                 </point>
             </task>
             <task classkmad="tache.Tache" id-task-point="K44" idkmad="K45">
-                <task-name>hoisrFormathttm</task-name>
+                <task-name>ChoisrFormathttm</task-name>
                 <task-numero>5.2</task-numero>
                 <task-observation/>
                 <task-executant>ABS</task-executant>
@@ -363,4 +363,7 @@
             </point>
         </task>
     </task>
+    <Individu classkmad="tache.Individu" idkmad="K78">
+        <individu-name>Spectateu</individu-name>
+    </Individu>
 </kmad-model>
