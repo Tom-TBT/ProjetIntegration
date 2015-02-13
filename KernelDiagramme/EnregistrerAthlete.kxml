@@ -90,7 +90,7 @@
                 </point>
             </task>
             <task classkmad="tache.Tache" id-task-point="K31" idkmad="K32">
-                <task-name>DemanderHandicape</task-name>
+                <task-name>RentrerTypeHandicap</task-name>
                 <task-numero>1.4</task-numero>
                 <task-observation/>
                 <task-executant>INT</task-executant>
@@ -99,6 +99,7 @@
                 <task-interruptible>false</task-interruptible>
                 <task-decomposition>LEAF</task-decomposition>
                 <task-precondition>true</task-precondition>
+                <task-descriptionprecondition>Est il handicape?</task-descriptionprecondition>
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K31">
