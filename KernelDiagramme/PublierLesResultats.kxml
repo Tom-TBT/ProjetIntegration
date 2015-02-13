@@ -6,8 +6,8 @@
             <projectinformation-compagny>M2CCI</projectinformation-compagny>
         </projectinformation>
     </project>
-    <task classkmad="tache.Tache" id-task-point="K3" id-task-subtasks-list="K19 K10 K13 " idkmad="K4">
-        <task-name>Publier les Résultats</task-name>
+    <task classkmad="tache.Tache" id-task-point="K3" id-task-subtasks-list="K19 K10 K66 K13 " idkmad="K4">
+        <task-name>PublierLesResultats</task-name>
         <task-numero>Racine   </task-numero>
         <task-observation/>
         <task-executant>ABS</task-executant>
@@ -23,7 +23,7 @@
             <point-y>35</point-y>
         </point>
         <task classkmad="tache.Tache" id-task-actors-list="K23 " id-task-point="K18" idkmad="K19">
-            <task-name>Collecter les Résultats </task-name>
+            <task-name>CollecterLesRésultats </task-name>
             <task-numero>1</task-numero>
             <task-observation/>
             <task-executant>USER</task-executant>
@@ -42,11 +42,11 @@
                 <actor-experience>UNK</actor-experience>
             </actor>
         </task>
-        <task classkmad="tache.Tache" id-task-point="K9" id-task-subtasks-list="K25 K28 K31 " idkmad="K10">
-            <task-name>Saisir les médailles</task-name>
+        <task classkmad="tache.Tache" id-task-point="K9" id-task-subtasks-list="K25 K31 " idkmad="K10">
+            <task-name>SaisirLesResultat</task-name>
             <task-numero>2</task-numero>
             <task-observation/>
-            <task-executant>INT</task-executant>
+            <task-executant>ABS</task-executant>
             <task-modality>COGN</task-modality>
             <task-optional>false</task-optional>
             <task-interruptible>false</task-interruptible>
@@ -59,7 +59,7 @@
                 <point-y>198</point-y>
             </point>
             <task classkmad="tache.Tache" id-task-point="K24" idkmad="K25">
-                <task-name>Identifier Responsable jury</task-name>
+                <task-name>IdentifierResponsableJury</task-name>
                 <task-numero>2.1</task-numero>
                 <task-observation/>
                 <task-executant>USER</task-executant>
@@ -71,101 +71,50 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K24">
-                    <point-x>161</point-x>
-                    <point-y>373</point-y>
+                    <point-x>138</point-x>
+                    <point-y>382</point-y>
                 </point>
             </task>
-            <task classkmad="tache.Tache" id-task-point="K27" id-task-subtasks-list="K34 K37 K40 " idkmad="K28">
-                <task-name>Entrer médailles</task-name>
+            <task classkmad="tache.Tache" id-task-point="K30" idkmad="K31">
+                <task-name>EntrerTousLesResultats</task-name>
                 <task-numero>2.2</task-numero>
                 <task-observation/>
                 <task-executant>INT</task-executant>
                 <task-modality>COGN</task-modality>
                 <task-optional>false</task-optional>
                 <task-interruptible>false</task-interruptible>
-                <task-decomposition>SEQ</task-decomposition>
-                <task-precondition>true</task-precondition>
-                <task-effetsdebord>void</task-effetsdebord>
-                <task-iteration>[1]</task-iteration>
-                <point classkmad="tache.Point" idkmad="K27">
-                    <point-x>394</point-x>
-                    <point-y>373</point-y>
-                </point>
-                <task classkmad="tache.Tache" id-task-point="K33" idkmad="K34">
-                    <task-name>Médaille d'or</task-name>
-                    <task-numero>2.2.1</task-numero>
-                    <task-observation/>
-                    <task-executant>SYS</task-executant>
-                    <task-modality>COGN</task-modality>
-                    <task-optional>false</task-optional>
-                    <task-interruptible>false</task-interruptible>
-                    <task-decomposition>LEAF</task-decomposition>
-                    <task-precondition>true</task-precondition>
-                    <task-effetsdebord>void</task-effetsdebord>
-                    <task-iteration>[1]</task-iteration>
-                    <point classkmad="tache.Point" idkmad="K33">
-                        <point-x>273</point-x>
-                        <point-y>533</point-y>
-                    </point>
-                </task>
-                <task classkmad="tache.Tache" id-task-point="K36" idkmad="K37">
-                    <task-name>Médaille d'argent </task-name>
-                    <task-numero>2.2.2</task-numero>
-                    <task-observation/>
-                    <task-executant>SYS</task-executant>
-                    <task-modality>COGN</task-modality>
-                    <task-optional>false</task-optional>
-                    <task-interruptible>false</task-interruptible>
-                    <task-decomposition>LEAF</task-decomposition>
-                    <task-precondition>true</task-precondition>
-                    <task-effetsdebord>void</task-effetsdebord>
-                    <task-iteration>[1]</task-iteration>
-                    <point classkmad="tache.Point" idkmad="K36">
-                        <point-x>441</point-x>
-                        <point-y>533</point-y>
-                    </point>
-                </task>
-                <task classkmad="tache.Tache" id-task-point="K39" idkmad="K40">
-                    <task-name>Médaille de bronze</task-name>
-                    <task-numero>2.2.3</task-numero>
-                    <task-observation/>
-                    <task-executant>SYS</task-executant>
-                    <task-modality>COGN</task-modality>
-                    <task-optional>false</task-optional>
-                    <task-interruptible>false</task-interruptible>
-                    <task-decomposition>LEAF</task-decomposition>
-                    <task-precondition>true</task-precondition>
-                    <task-effetsdebord>void</task-effetsdebord>
-                    <task-iteration>[1]</task-iteration>
-                    <point classkmad="tache.Point" idkmad="K39">
-                        <point-x>603</point-x>
-                        <point-y>533</point-y>
-                    </point>
-                </task>
-            </task>
-            <task classkmad="tache.Tache" id-task-point="K30" idkmad="K31">
-                <task-name>entrer tous les résultats</task-name>
-                <task-numero>2.3</task-numero>
-                <task-observation/>
-                <task-executant>INT</task-executant>
-                <task-modality>COGN</task-modality>
-                <task-optional>true</task-optional>
-                <task-interruptible>false</task-interruptible>
                 <task-decomposition>LEAF</task-decomposition>
                 <task-precondition>true</task-precondition>
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K30">
-                    <point-x>580</point-x>
-                    <point-y>373</point-y>
+                    <point-x>495</point-x>
+                    <point-y>382</point-y>
                 </point>
             </task>
         </task>
-        <task classkmad="tache.Tache" id-task-point="K12" id-task-subtasks-list="K43 K46 " idkmad="K13">
-            <task-name>Afficher les Résultat</task-name>
+        <task classkmad="tache.Tache" id-task-point="K65" idkmad="K66">
+            <task-name>TrierLesResultats</task-name>
             <task-numero>3</task-numero>
             <task-observation/>
-            <task-executant>USER</task-executant>
+            <task-executant>SYS</task-executant>
+            <task-modality>COGN</task-modality>
+            <task-optional>false</task-optional>
+            <task-interruptible>false</task-interruptible>
+            <task-decomposition>LEAF</task-decomposition>
+            <task-precondition>true</task-precondition>
+            <task-effetsdebord>void</task-effetsdebord>
+            <task-iteration>[1]</task-iteration>
+            <point classkmad="tache.Point" idkmad="K65">
+                <point-x>646</point-x>
+                <point-y>198</point-y>
+            </point>
+        </task>
+        <task classkmad="tache.Tache" id-task-point="K12" id-task-subtasks-list="K43 K46 " idkmad="K13">
+            <task-name>AfficherLesResultat</task-name>
+            <task-numero>4</task-numero>
+            <task-observation/>
+            <task-executant>ABS</task-executant>
             <task-modality>COGN</task-modality>
             <task-optional>false</task-optional>
             <task-interruptible>false</task-interruptible>
@@ -178,8 +127,8 @@
                 <point-y>198</point-y>
             </point>
             <task classkmad="tache.Tache" id-task-point="K42" idkmad="K43">
-                <task-name>Afficher médailles </task-name>
-                <task-numero>3.1</task-numero>
+                <task-name>AfficherMedailles </task-name>
+                <task-numero>4.1</task-numero>
                 <task-observation/>
                 <task-executant>SYS</task-executant>
                 <task-modality>COGN</task-modality>
@@ -190,13 +139,13 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K42">
-                    <point-x>839</point-x>
-                    <point-y>351</point-y>
+                    <point-x>784</point-x>
+                    <point-y>382</point-y>
                 </point>
             </task>
             <task classkmad="tache.Tache" id-task-point="K45" idkmad="K46">
-                <task-name>Afficher détaille</task-name>
-                <task-numero>3.2</task-numero>
+                <task-name>AfficherResultatsDetailles</task-name>
+                <task-numero>4.2</task-numero>
                 <task-observation/>
                 <task-executant>SYS</task-executant>
                 <task-modality>COGN</task-modality>
@@ -207,8 +156,8 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K45">
-                    <point-x>1104</point-x>
-                    <point-y>351</point-y>
+                    <point-x>995</point-x>
+                    <point-y>382</point-y>
                 </point>
             </task>
         </task>
