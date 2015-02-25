@@ -19,8 +19,8 @@
         <task-effetsdebord>void</task-effetsdebord>
         <task-iteration>[1]</task-iteration>
         <point classkmad="tache.Point" idkmad="K3">
-            <point-x>1104</point-x>
-            <point-y>34</point-y>
+            <point-x>1068</point-x>
+            <point-y>22</point-y>
         </point>
         <task classkmad="tache.Tache" id-task-point="K6" id-task-subtasks-list="K59 K65 K14 " idkmad="K7">
             <task-name>ListerDisciplines</task-name>
@@ -187,7 +187,7 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K36">
-                    <point-x>1256</point-x>
+                    <point-x>1230</point-x>
                     <point-y>370</point-y>
                 </point>
                 <task classkmad="tache.Tache" id-task-point="K72" idkmad="K73">
@@ -203,7 +203,7 @@
                     <task-effetsdebord>void</task-effetsdebord>
                     <task-iteration>[1]</task-iteration>
                     <point classkmad="tache.Point" idkmad="K72">
-                        <point-x>1143</point-x>
+                        <point-x>1077</point-x>
                         <point-y>507</point-y>
                     </point>
                 </task>
@@ -220,7 +220,7 @@
                     <task-effetsdebord>void</task-effetsdebord>
                     <task-iteration>[1]</task-iteration>
                     <point classkmad="tache.Point" idkmad="K75">
-                        <point-x>1353</point-x>
+                        <point-x>1324</point-x>
                         <point-y>507</point-y>
                     </point>
                 </task>
