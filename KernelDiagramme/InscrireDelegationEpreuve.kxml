@@ -145,7 +145,7 @@
             </task>
         </task>
         <task classkmad="tache.Tache" id-task-point="K27" idkmad="K28">
-            <task-name>AsignerLogement</task-name>
+            <task-name>AssignerLogement</task-name>
             <task-numero>4</task-numero>
             <task-observation/>
             <task-executant>SYS</task-executant>
