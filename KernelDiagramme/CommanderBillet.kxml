@@ -40,7 +40,7 @@
             </point>
             <task classkmad="tache.Tache" id-task-point="K58" idkmad="K59">
                 <task-name>SelectionnerDiscipline</task-name>
-                <task-numero>2.2</task-numero>
+                <task-numero>1.1</task-numero>
                 <task-observation/>
                 <task-executant>INT</task-executant>
                 <task-modality>COGN</task-modality>
@@ -57,7 +57,7 @@
             </task>
             <task classkmad="tache.Tache" id-task-point="K64" idkmad="K65">
                 <task-name>AfficherPlacesdisponibles</task-name>
-                <task-numero>2.3</task-numero>
+                <task-numero>1.2</task-numero>
                 <task-observation/>
                 <task-executant>SYS</task-executant>
                 <task-modality>COGN</task-modality>
@@ -74,9 +74,9 @@
             </task>
             <task classkmad="tache.Tache" id-task-point="K13" idkmad="K14">
                 <task-name>RechercherNumeroTicket</task-name>
-                <task-numero>2.3</task-numero>
+                <task-numero>1.3</task-numero>
                 <task-observation/>
-                <task-executant>ABS</task-executant>
+                <task-executant>INT</task-executant>
                 <task-modality>COGN</task-modality>
                 <task-optional>false</task-optional>
                 <task-interruptible>false</task-interruptible>
@@ -94,7 +94,7 @@
             <task-name>AjouterTicketDansPanier</task-name>
             <task-numero>3</task-numero>
             <task-observation/>
-            <task-executant>INT</task-executant>
+            <task-executant>ABS</task-executant>
             <task-modality>COGN</task-modality>
             <task-optional>false</task-optional>
             <task-interruptible>false</task-interruptible>
@@ -108,9 +108,9 @@
             </point>
             <task classkmad="tache.Tache" id-task-point="K28" idkmad="K29">
                 <task-name>ChoisirUnAutreTicket</task-name>
-                <task-numero>3.1</task-numero>
+                <task-numero>2.1</task-numero>
                 <task-observation/>
-                <task-executant>ABS</task-executant>
+                <task-executant>INT</task-executant>
                 <task-modality>COGN</task-modality>
                 <task-optional>false</task-optional>
                 <task-interruptible>false</task-interruptible>
@@ -125,9 +125,9 @@
             </task>
             <task classkmad="tache.Tache" id-task-point="K30" idkmad="K31">
                 <task-name>ValiderChoix</task-name>
-                <task-numero>3.2</task-numero>
+                <task-numero>2.2</task-numero>
                 <task-observation/>
-                <task-executant>ABS</task-executant>
+                <task-executant>INT</task-executant>
                 <task-modality>COGN</task-modality>
                 <task-optional>false</task-optional>
                 <task-interruptible>false</task-interruptible>
@@ -143,7 +143,7 @@
         </task>
         <task classkmad="tache.Tache" id-task-point="K11" id-task-subtasks-list="K70 K37 " idkmad="K12">
             <task-name>PayerTicket</task-name>
-            <task-numero>4</task-numero>
+            <task-numero>3</task-numero>
             <task-observation/>
             <task-executant>ABS</task-executant>
             <task-modality>COGN</task-modality>
@@ -159,7 +159,7 @@
             </point>
             <task classkmad="tache.Tache" id-task-point="K69" idkmad="K70">
                 <task-name>EntrerCode</task-name>
-                <task-numero>4.1</task-numero>
+                <task-numero>3.1</task-numero>
                 <task-observation/>
                 <task-executant>INT</task-executant>
                 <task-modality>COGN</task-modality>
@@ -176,9 +176,9 @@
             </task>
             <task classkmad="tache.Tache" id-task-point="K36" id-task-subtasks-list="K73 K76 " idkmad="K37">
                 <task-name>ValiderAchat</task-name>
-                <task-numero>4.2</task-numero>
+                <task-numero>3.2</task-numero>
                 <task-observation/>
-                <task-executant>ABS</task-executant>
+                <task-executant>INT</task-executant>
                 <task-modality>COGN</task-modality>
                 <task-optional>false</task-optional>
                 <task-interruptible>false</task-interruptible>
@@ -192,7 +192,7 @@
                 </point>
                 <task classkmad="tache.Tache" id-task-point="K72" idkmad="K73">
                     <task-name>ValiderAchat</task-name>
-                    <task-numero>4.2.1</task-numero>
+                    <task-numero>3.2.1</task-numero>
                     <task-observation/>
                     <task-executant>INT</task-executant>
                     <task-modality>COGN</task-modality>
@@ -209,7 +209,7 @@
                 </task>
                 <task classkmad="tache.Tache" id-task-point="K75" idkmad="K76">
                     <task-name>InterrogerBanque</task-name>
-                    <task-numero>4.2.2</task-numero>
+                    <task-numero>3.2.2</task-numero>
                     <task-observation/>
                     <task-executant>SYS</task-executant>
                     <task-modality>COGN</task-modality>
@@ -228,7 +228,7 @@
         </task>
         <task classkmad="tache.Tache" id-task-point="K15" id-task-subtasks-list="K43 K45 " idkmad="K16">
             <task-name>SelectionnerTypeBillet</task-name>
-            <task-numero>5</task-numero>
+            <task-numero>4</task-numero>
             <task-observation/>
             <task-executant>ABS</task-executant>
             <task-modality>COGN</task-modality>
@@ -244,9 +244,9 @@
             </point>
             <task classkmad="tache.Tache" id-task-point="K42" idkmad="K43">
                 <task-name>ChoisirFormatPdf</task-name>
-                <task-numero>5.1</task-numero>
+                <task-numero>4.1</task-numero>
                 <task-observation/>
-                <task-executant>ABS</task-executant>
+                <task-executant>INT</task-executant>
                 <task-modality>COGN</task-modality>
                 <task-optional>false</task-optional>
                 <task-interruptible>false</task-interruptible>
@@ -261,9 +261,9 @@
             </task>
             <task classkmad="tache.Tache" id-task-point="K44" idkmad="K45">
                 <task-name>ChoisirFormathtml</task-name>
-                <task-numero>5.2</task-numero>
+                <task-numero>4.2</task-numero>
                 <task-observation/>
-                <task-executant>ABS</task-executant>
+                <task-executant>INT</task-executant>
                 <task-modality>COGN</task-modality>
                 <task-optional>false</task-optional>
                 <task-interruptible>false</task-interruptible>
@@ -279,9 +279,9 @@
         </task>
         <task classkmad="tache.Tache" id-task-point="K46" idkmad="K47">
             <task-name>RecevoirTicket</task-name>
-            <task-numero>6</task-numero>
+            <task-numero>5</task-numero>
             <task-observation/>
-            <task-executant>ABS</task-executant>
+            <task-executant>SYS</task-executant>
             <task-modality>COGN</task-modality>
             <task-optional>false</task-optional>
             <task-interruptible>false</task-interruptible>
