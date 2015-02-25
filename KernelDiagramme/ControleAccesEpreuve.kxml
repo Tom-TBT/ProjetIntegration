@@ -39,7 +39,7 @@
                 <point-y>246</point-y>
             </point>
             <task classkmad="tache.Tache" id-task-point="K11" idkmad="K12">
-                <task-name>PresenterBadge</task-name>
+                <task-name>PresenterPass</task-name>
                 <task-numero>1.1</task-numero>
                 <task-observation/>
                 <task-executant>USER</task-executant>
