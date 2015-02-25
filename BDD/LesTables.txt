@@ -1,0 +1,15 @@
+
+
+LesEpreuves(idEpreuve, numeroDiscipline, nb_Personnes,genre)
+
+LesDisciplines(numeroDiscipline, nomDiscipline)
+
+LesDelegations(numeroDelegation,pays)
+
+LesSportifs(numeroSportif, nom, prenom,dateNaissance ,pays, handicap)
+
+LesBatiments(numeroBatiment,nomBatiment,adresse);
+
+LesChambres(numeroChambre,numeroBatiment,nb_plaves)
+
+lesCompetitions(numeroCompetitions,pays);
