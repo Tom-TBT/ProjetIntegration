@@ -47,7 +47,7 @@
             <task-precondition>true</task-precondition>
             <task-effetsdebord>void</task-effetsdebord>
             <task-iteration>[1]</task-iteration>
-            <task-descriptioniteration>Ajouter encore une épreuve</task-descriptioniteration>
+            <task-descriptioniteration>Ajouter d'autres épreuves</task-descriptioniteration>
             <point classkmad="tache.Point" idkmad="K42">
                 <point-x>717</point-x>
                 <point-y>173</point-y>
@@ -82,7 +82,7 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K12">
-                    <point-x>462</point-x>
+                    <point-x>505</point-x>
                     <point-y>318</point-y>
                 </point>
                 <task classkmad="tache.Tache" id-task-point="K21" idkmad="K22">
