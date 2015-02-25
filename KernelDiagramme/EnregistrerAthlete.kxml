@@ -7,7 +7,7 @@
         </projectinformation>
     </project>
     <task classkmad="tache.Tache" id-task-point="K3" id-task-subtasks-list="K7 K10 K47 K13 " idkmad="K4">
-        <task-name>EnregisterAthletes</task-name>
+        <task-name>EnregisterSportif</task-name>
         <task-numero>Racine   </task-numero>
         <task-observation/>
         <task-executant>ABS</task-executant>
@@ -22,8 +22,8 @@
             <point-x>761</point-x>
             <point-y>76</point-y>
         </point>
-        <task classkmad="tache.Tache" id-task-point="K6" id-task-subtasks-list="K23 K26 K29 K32 " idkmad="K7">
-            <task-name>EnregistrerId</task-name>
+        <task classkmad="tache.Tache" id-task-point="K6" id-task-subtasks-list="K23 K26 K74 K29 K32 " idkmad="K7">
+            <task-name>EnregistrerIdentite</task-name>
             <task-numero>1</task-numero>
             <task-observation/>
             <task-executant>INT</task-executant>
@@ -51,8 +51,8 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K22">
-                    <point-x>51</point-x>
-                    <point-y>445</point-y>
+                    <point-x>0</point-x>
+                    <point-y>447</point-y>
                 </point>
             </task>
             <task classkmad="tache.Tache" id-task-point="K25" idkmad="K26">
@@ -68,12 +68,12 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K25">
-                    <point-x>190</point-x>
+                    <point-x>123</point-x>
                     <point-y>447</point-y>
                 </point>
             </task>
-            <task classkmad="tache.Tache" id-task-point="K28" idkmad="K29">
-                <task-name>RentrerPays</task-name>
+            <task classkmad="tache.Tache" id-task-point="K73" idkmad="K74">
+                <task-name>RentrerDateNaissance</task-name>
                 <task-numero>1.3</task-numero>
                 <task-observation/>
                 <task-executant>INT</task-executant>
@@ -84,13 +84,13 @@
                 <task-precondition>true</task-precondition>
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
-                <point classkmad="tache.Point" idkmad="K28">
-                    <point-x>364</point-x>
-                    <point-y>447</point-y>
+                <point classkmad="tache.Point" idkmad="K73">
+                    <point-x>260</point-x>
+                    <point-y>445</point-y>
                 </point>
             </task>
-            <task classkmad="tache.Tache" id-task-point="K31" idkmad="K32">
-                <task-name>RentrerTypeHandicap</task-name>
+            <task classkmad="tache.Tache" id-task-point="K28" idkmad="K29">
+                <task-name>RentrerPays</task-name>
                 <task-numero>1.4</task-numero>
                 <task-observation/>
                 <task-executant>INT</task-executant>
@@ -99,11 +99,28 @@
                 <task-interruptible>false</task-interruptible>
                 <task-decomposition>LEAF</task-decomposition>
                 <task-precondition>true</task-precondition>
-                <task-descriptionprecondition>Est il handicape?</task-descriptionprecondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K28">
+                    <point-x>468</point-x>
+                    <point-y>447</point-y>
+                </point>
+            </task>
+            <task classkmad="tache.Tache" id-task-point="K31" idkmad="K32">
+                <task-name>RentrerTypeHandicap</task-name>
+                <task-numero>1.5</task-numero>
+                <task-observation/>
+                <task-executant>INT</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>LEAF</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-descriptionprecondition>Est-ce une competition Handi-sport ?</task-descriptionprecondition>
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K31">
-                    <point-x>510</point-x>
+                    <point-x>590</point-x>
                     <point-y>447</point-y>
                 </point>
             </task>
