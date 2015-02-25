@@ -6,7 +6,7 @@
             <projectinformation-date>25-02-2015</projectinformation-date>
         </projectinformation>
     </project>
-    <task classkmad="tache.Tache" id-task-point="K3" id-task-subtasks-list="K7 K10 K19 " idkmad="K4">
+    <task classkmad="tache.Tache" id-task-point="K3" id-task-subtasks-list="K7 K10 K19 K28 " idkmad="K4">
         <task-name>InscrireDelegationEpreuve</task-name>
         <task-numero>Racine   </task-numero>
         <task-observation/>
@@ -143,6 +143,23 @@
                     <point-y>326</point-y>
                 </point>
             </task>
+        </task>
+        <task classkmad="tache.Tache" id-task-point="K27" idkmad="K28">
+            <task-name>AsignerLogement</task-name>
+            <task-numero>4</task-numero>
+            <task-observation/>
+            <task-executant>SYS</task-executant>
+            <task-modality>COGN</task-modality>
+            <task-optional>false</task-optional>
+            <task-interruptible>false</task-interruptible>
+            <task-decomposition>LEAF</task-decomposition>
+            <task-precondition>true</task-precondition>
+            <task-effetsdebord>void</task-effetsdebord>
+            <task-iteration>[1]</task-iteration>
+            <point classkmad="tache.Point" idkmad="K27">
+                <point-x>1108</point-x>
+                <point-y>162</point-y>
+            </point>
         </task>
     </task>
 </kmad-model>
