@@ -7,7 +7,7 @@
         </projectinformation>
     </project>
     <task classkmad="tache.Tache" id-task-point="K3" id-task-subtasks-list="K7 K12 K16 K47 " idkmad="K4">
-        <task-name>CommenderTicketSurCyberCompettion</task-name>
+        <task-name>CommanderTicketSurCyberCompettion</task-name>
         <task-numero>Racine   </task-numero>
         <task-observation/>
         <task-executant>ABS</task-executant>
@@ -19,10 +19,10 @@
         <task-effetsdebord>void</task-effetsdebord>
         <task-iteration>[1]</task-iteration>
         <point classkmad="tache.Point" idkmad="K3">
-            <point-x>1029</point-x>
-            <point-y>14</point-y>
+            <point-x>1032</point-x>
+            <point-y>6</point-y>
         </point>
-        <task classkmad="tache.Tache" id-task-point="K6" id-task-subtasks-list="K59 K65 K67 " idkmad="K7">
+        <task classkmad="tache.Tache" id-task-point="K6" id-task-subtasks-list="K59 K65 K29 " idkmad="K7">
             <task-name>ListerDisciplines</task-name>
             <task-numero>2</task-numero>
             <task-observation/>
@@ -34,6 +34,7 @@
             <task-precondition>true</task-precondition>
             <task-effetsdebord>void</task-effetsdebord>
             <task-iteration>[1]</task-iteration>
+            <task-descriptioniteration>tant que je veux un autre ticket </task-descriptioniteration>
             <point classkmad="tache.Point" idkmad="K6">
                 <point-x>638</point-x>
                 <point-y>185</point-y>
@@ -72,58 +73,23 @@
                     <point-y>370</point-y>
                 </point>
             </task>
-            <task classkmad="tache.Tache" id-task-point="K66" id-task-subtasks-list="K29 K31 " idkmad="K67">
-                <task-name>ChoisirTicket</task-name>
+            <task classkmad="tache.Tache" id-task-point="K28" idkmad="K29">
+                <task-name>AjouterTicketDansPanier</task-name>
                 <task-numero>2.3</task-numero>
                 <task-observation/>
-                <task-executant>ABS</task-executant>
+                <task-executant>INT</task-executant>
                 <task-modality>COGN</task-modality>
                 <task-optional>false</task-optional>
                 <task-interruptible>false</task-interruptible>
-                <task-decomposition>ENT</task-decomposition>
+                <task-decomposition>LEAF</task-decomposition>
                 <task-precondition>true</task-precondition>
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
-                <point classkmad="tache.Point" idkmad="K66">
-                    <point-x>860</point-x>
+                <task-descriptioniteration>Tant qu'on le souhaite</task-descriptioniteration>
+                <point classkmad="tache.Point" idkmad="K28">
+                    <point-x>839</point-x>
                     <point-y>370</point-y>
                 </point>
-                <task classkmad="tache.Tache" id-task-point="K28" idkmad="K29">
-                    <task-name>AjouterTicketDansPanier</task-name>
-                    <task-numero>2.3.1</task-numero>
-                    <task-observation/>
-                    <task-executant>INT</task-executant>
-                    <task-modality>COGN</task-modality>
-                    <task-optional>false</task-optional>
-                    <task-interruptible>false</task-interruptible>
-                    <task-decomposition>LEAF</task-decomposition>
-                    <task-precondition>true</task-precondition>
-                    <task-effetsdebord>void</task-effetsdebord>
-                    <task-iteration>[1]</task-iteration>
-                    <task-descriptioniteration>Tant qu'on le souhaite</task-descriptioniteration>
-                    <point classkmad="tache.Point" idkmad="K28">
-                        <point-x>731</point-x>
-                        <point-y>538</point-y>
-                    </point>
-                </task>
-                <task classkmad="tache.Tache" id-task-point="K30" idkmad="K31">
-                    <task-name>SupprimerTicket</task-name>
-                    <task-numero>2.3.2</task-numero>
-                    <task-observation/>
-                    <task-executant>INT</task-executant>
-                    <task-modality>COGN</task-modality>
-                    <task-optional>false</task-optional>
-                    <task-interruptible>false</task-interruptible>
-                    <task-decomposition>LEAF</task-decomposition>
-                    <task-precondition>true</task-precondition>
-                    <task-effetsdebord>void</task-effetsdebord>
-                    <task-iteration>[1]</task-iteration>
-                    <task-descriptioniteration>si ticket dèjà choisit</task-descriptioniteration>
-                    <point classkmad="tache.Point" idkmad="K30">
-                        <point-x>965</point-x>
-                        <point-y>538</point-y>
-                    </point>
-                </task>
             </task>
         </task>
         <task classkmad="tache.Tache" id-task-point="K11" idkmad="K12">
@@ -140,7 +106,7 @@
             <task-iteration>[1]</task-iteration>
             <point classkmad="tache.Point" idkmad="K11">
                 <point-x>1185</point-x>
-                <point-y>185</point-y>
+                <point-y>215</point-y>
             </point>
         </task>
         <task classkmad="tache.Tache" id-task-point="K15" idkmad="K16">
@@ -173,8 +139,8 @@
             <task-effetsdebord>void</task-effetsdebord>
             <task-iteration>[1]</task-iteration>
             <point classkmad="tache.Point" idkmad="K46">
-                <point-x>1652</point-x>
-                <point-y>260</point-y>
+                <point-x>1650</point-x>
+                <point-y>215</point-y>
             </point>
         </task>
     </task>
