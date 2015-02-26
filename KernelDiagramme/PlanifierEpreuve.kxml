@@ -2,7 +2,7 @@
 <!DOCTYPE kmad-model SYSTEM "file:KMADModelJT.dtd">
 <kmad-model version="1.2">
     <project classkmad="project.Project" idkmad="K1"/>
-    <task classkmad="tache.Tache" id-task-point="K3" id-task-subtasks-list="K7 K10 K13 K47 K16 " idkmad="K4">
+    <task classkmad="tache.Tache" id-task-point="K3" id-task-subtasks-list="K7 K10 K13 K16 K47 " idkmad="K4">
         <task-name>PlanifierEpreuve</task-name>
         <task-numero>Racine   </task-numero>
         <task-observation/>
@@ -15,7 +15,7 @@
         <task-effetsdebord>void</task-effetsdebord>
         <task-iteration>[1]</task-iteration>
         <point classkmad="tache.Point" idkmad="K3">
-            <point-x>479</point-x>
+            <point-x>632</point-x>
             <point-y>39</point-y>
         </point>
         <task classkmad="tache.Tache" id-task-point="K6" idkmad="K7">
@@ -64,13 +64,14 @@
             <task-precondition>true</task-precondition>
             <task-effetsdebord>void</task-effetsdebord>
             <task-iteration>[1]</task-iteration>
+            <task-descriptioniteration>Il y a d'autre phase à planifier?</task-descriptioniteration>
             <point classkmad="tache.Point" idkmad="K12">
                 <point-x>624</point-x>
                 <point-y>183</point-y>
             </point>
         </task>
-        <task classkmad="tache.Tache" id-task-point="K46" idkmad="K47">
-            <task-name>AfficherSportif</task-name>
+        <task classkmad="tache.Tache" id-task-point="K15" idkmad="K16">
+            <task-name>EtablirOrdrePassage</task-name>
             <task-numero>4</task-numero>
             <task-observation/>
             <task-executant>SYS</task-executant>
@@ -81,16 +82,16 @@
             <task-precondition>true</task-precondition>
             <task-effetsdebord>void</task-effetsdebord>
             <task-iteration>[1]</task-iteration>
-            <point classkmad="tache.Point" idkmad="K46">
-                <point-x>802</point-x>
+            <point classkmad="tache.Point" idkmad="K15">
+                <point-x>804</point-x>
                 <point-y>183</point-y>
             </point>
         </task>
-        <task classkmad="tache.Tache" id-task-point="K15" idkmad="K16">
-            <task-name>EtablirOrdrePassage</task-name>
+        <task classkmad="tache.Tache" id-task-point="K46" idkmad="K47">
+            <task-name>PublierPlanification</task-name>
             <task-numero>5</task-numero>
             <task-observation/>
-            <task-executant>INT</task-executant>
+            <task-executant>SYS</task-executant>
             <task-modality>COGN</task-modality>
             <task-optional>false</task-optional>
             <task-interruptible>false</task-interruptible>
@@ -98,8 +99,8 @@
             <task-precondition>true</task-precondition>
             <task-effetsdebord>void</task-effetsdebord>
             <task-iteration>[1]</task-iteration>
-            <point classkmad="tache.Point" idkmad="K15">
-                <point-x>1012</point-x>
+            <point classkmad="tache.Point" idkmad="K46">
+                <point-x>1003</point-x>
                 <point-y>183</point-y>
             </point>
         </task>

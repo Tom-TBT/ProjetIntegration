@@ -3,7 +3,7 @@
 <kmad-model version="1.2">
     <project classkmad="project.Project" idkmad="K1"/>
     <task classkmad="tache.Tache" id-task-point="K3" id-task-subtasks-list="K10 K43 K40 " idkmad="K4">
-        <task-name>EnregistrerEpreuvePourCompetition</task-name>
+        <task-name>EnregistrerEpreuve</task-name>
         <task-numero>Racine   </task-numero>
         <task-observation/>
         <task-executant>INT</task-executant>
@@ -47,7 +47,6 @@
             <task-precondition>true</task-precondition>
             <task-effetsdebord>void</task-effetsdebord>
             <task-iteration>[1]</task-iteration>
-            <task-descriptioniteration>Ajouter d'autres épreuves</task-descriptioniteration>
             <point classkmad="tache.Point" idkmad="K42">
                 <point-x>717</point-x>
                 <point-y>173</point-y>
