@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE kmad-model SYSTEM "file:KMADModelJT.dtd">
+<kmad-model version="1.2">
+    <project classkmad="project.Project" id-project-information="K2" idkmad="K1">
+        <projectinformation classkmad="project.GeneralInformation" idkmad="K2">
+            <projectinformation-compagny>m2cci</projectinformation-compagny>
+        </projectinformation>
+    </project>
+    <task classkmad="tache.Tache" id-task-point="K3" id-task-subtasks-list="K7 K97 K12 K16 K47 " idkmad="K4">
+        <task-name>AcheterTicket</task-name>
+        <task-numero>Racine   </task-numero>
+        <task-observation/>
+        <task-executant>ABS</task-executant>
+        <task-modality>COGN</task-modality>
+        <task-optional>false</task-optional>
+        <task-interruptible>false</task-interruptible>
+        <task-decomposition>SEQ</task-decomposition>
+        <task-precondition>true</task-precondition>
+        <task-effetsdebord>void</task-effetsdebord>
+        <task-iteration>[1]</task-iteration>
+        <point classkmad="tache.Point" idkmad="K3">
+            <point-x>1032</point-x>
+            <point-y>6</point-y>
+        </point>
+        <task classkmad="tache.Tache" id-task-point="K6" id-task-subtasks-list="K59 K65 K29 " idkmad="K7">
+            <task-name>ChoisirTicket</task-name>
+            <task-numero>1</task-numero>
+            <task-observation/>
+            <task-executant>ABS</task-executant>
+            <task-modality>COGN</task-modality>
+            <task-optional>false</task-optional>
+            <task-interruptible>false</task-interruptible>
+            <task-decomposition>SEQ</task-decomposition>
+            <task-precondition>true</task-precondition>
+            <task-effetsdebord>void</task-effetsdebord>
+            <task-iteration>[1]</task-iteration>
+            <task-descriptioniteration>tant que je veux un autre ticket </task-descriptioniteration>
+            <point classkmad="tache.Point" idkmad="K6">
+                <point-x>638</point-x>
+                <point-y>185</point-y>
+            </point>
+            <task classkmad="tache.Tache" id-task-point="K58" idkmad="K59">
+                <task-name>SelectionnerDiscipline</task-name>
+                <task-numero>1.1</task-numero>
+                <task-observation/>
+                <task-executant>INT</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>LEAF</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K58">
+                    <point-x>384</point-x>
+                    <point-y>370</point-y>
+                </point>
+            </task>
+            <task classkmad="tache.Tache" id-task-point="K64" idkmad="K65">
+                <task-name>AfficherPlacesDisponibles</task-name>
+                <task-numero>1.2</task-numero>
+                <task-observation/>
+                <task-executant>SYS</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>LEAF</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K64">
+                    <point-x>600</point-x>
+                    <point-y>370</point-y>
+                </point>
+            </task>
+            <task classkmad="tache.Tache" id-task-point="K28" idkmad="K29">
+                <task-name>AjouterTicketDansPanier</task-name>
+                <task-numero>1.3</task-numero>
+                <task-observation/>
+                <task-executant>INT</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>LEAF</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K28">
+                    <point-x>839</point-x>
+                    <point-y>370</point-y>
+                </point>
+            </task>
+        </task>
+        <task classkmad="tache.Tache" id-task-point="K96" idkmad="K97">
+            <task-name>ModifierPanier</task-name>
+            <task-numero>2</task-numero>
+            <task-observation/>
+            <task-executant>INT</task-executant>
+            <task-modality>COGN</task-modality>
+            <task-optional>false</task-optional>
+            <task-interruptible>false</task-interruptible>
+            <task-decomposition>LEAF</task-decomposition>
+            <task-precondition>true</task-precondition>
+            <task-effetsdebord>void</task-effetsdebord>
+            <task-iteration>[1]</task-iteration>
+            <point classkmad="tache.Point" idkmad="K96">
+                <point-x>1004</point-x>
+                <point-y>215</point-y>
+            </point>
+        </task>
+        <task classkmad="tache.Tache" id-task-point="K11" idkmad="K12">
+            <task-name>PayerTicket</task-name>
+            <task-numero>3</task-numero>
+            <task-observation/>
+            <task-executant>INT</task-executant>
+            <task-modality>COGN</task-modality>
+            <task-optional>false</task-optional>
+            <task-interruptible>false</task-interruptible>
+            <task-decomposition>LEAF</task-decomposition>
+            <task-precondition>true</task-precondition>
+            <task-effetsdebord>void</task-effetsdebord>
+            <task-iteration>[1]</task-iteration>
+            <point classkmad="tache.Point" idkmad="K11">
+                <point-x>1185</point-x>
+                <point-y>215</point-y>
+            </point>
+        </task>
+        <task classkmad="tache.Tache" id-task-point="K15" idkmad="K16">
+            <task-name>SelectionnerFormatTicket</task-name>
+            <task-numero>4</task-numero>
+            <task-observation/>
+            <task-executant>INT</task-executant>
+            <task-modality>COGN</task-modality>
+            <task-optional>false</task-optional>
+            <task-interruptible>false</task-interruptible>
+            <task-decomposition>LEAF</task-decomposition>
+            <task-precondition>true</task-precondition>
+            <task-effetsdebord>void</task-effetsdebord>
+            <task-iteration>[1]</task-iteration>
+            <point classkmad="tache.Point" idkmad="K15">
+                <point-x>1374</point-x>
+                <point-y>215</point-y>
+            </point>
+        </task>
+        <task classkmad="tache.Tache" id-task-point="K46" idkmad="K47">
+            <task-name>TelechargerTicket</task-name>
+            <task-numero>5</task-numero>
+            <task-observation/>
+            <task-executant>SYS</task-executant>
+            <task-modality>COGN</task-modality>
+            <task-optional>false</task-optional>
+            <task-interruptible>false</task-interruptible>
+            <task-decomposition>LEAF</task-decomposition>
+            <task-precondition>true</task-precondition>
+            <task-effetsdebord>void</task-effetsdebord>
+            <task-iteration>[1]</task-iteration>
+            <point classkmad="tache.Point" idkmad="K46">
+                <point-x>1568</point-x>
+                <point-y>185</point-y>
+            </point>
+        </task>
+    </task>
+    <Individu classkmad="tache.Individu" idkmad="K78">
+        <individu-name>Spectateu</individu-name>
+    </Individu>
+</kmad-model>
