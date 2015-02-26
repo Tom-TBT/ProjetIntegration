@@ -1,15 +1,32 @@
+LesEpreuves(idEpreuve, idDiscipline, nom, nbPersonnes, genre)
+
+LesDisciplines(idDiscipline, nom)
+
+LesDelegations(idDelegation, pays)
+
+LesSportifs(idSportif, idDelegation, nom, prenom, dateNaissance, handicap)
+
+LesBatiments(idBatiment, nom, adresse);
+
+LesChambres(idChambre, idBatiment, nbPlaces)
+
+LesCompetitions(idCompetitions, pays, date);
 
 
-LesEpreuves(idEpreuve, numeroDiscipline, nb_Personnes,genre)
 
-LesDisciplines(numeroDiscipline, nomDiscipline)
+Contraintes d'integritées gérées par la BDD:
 
-LesDelegations(numeroDelegation,pays)
+LesEpreuves[idDiscipline] ⊆ LesDisciplines[idDiscipline]
+LesSportifs[idDelegation] ⊆ LesDelegations[idDelegation]
+LesChambres[idBatiment] ⊆ LesBatiments[idBatiment]
 
-LesSportifs(numeroSportif, nom, prenom,dateNaissance ,pays, handicap)
+LesEpreuves[nbPersonnes] > 0
+LesChambres[nbPlaces] ⊆ {1-10}
 
-LesBatiments(numeroBatiment,nomBatiment,adresse);
 
-LesChambres(numeroChambre,numeroBatiment,nb_plaves)
+Contraintes d'intégritées gérées par le logiciel:
 
-lesCompetitions(numeroCompetitions,pays);
+LesEpreuves[genre] ⊆ {F,H,M}
+Lors d'un ajout d'une compétition : LesCompetitions[date] > dateActuelle
+
+
