@@ -108,7 +108,7 @@
                 </point>
             </task>
             <task classkmad="tache.Tache" id-task-point="K14" idkmad="K15">
-                <task-name>SelectionnerTicketVirtuel</task-name>
+                <task-name>SelectionnerTicketVideo</task-name>
                 <task-numero>4.2</task-numero>
                 <task-observation/>
                 <task-executant>INT</task-executant>
@@ -146,7 +146,7 @@
             <task-name>MettreTicketsEnligne</task-name>
             <task-numero>6</task-numero>
             <task-observation/>
-            <task-executant>ABS</task-executant>
+            <task-executant>INT</task-executant>
             <task-modality>COGN</task-modality>
             <task-optional>false</task-optional>
             <task-interruptible>false</task-interruptible>
@@ -155,8 +155,8 @@
             <task-effetsdebord>void</task-effetsdebord>
             <task-iteration>[1]</task-iteration>
             <point classkmad="tache.Point" idkmad="K16">
-                <point-x>1049</point-x>
-                <point-y>186</point-y>
+                <point-x>1051</point-x>
+                <point-y>231</point-y>
             </point>
         </task>
     </task>
