@@ -7,7 +7,7 @@
         </projectinformation>
     </project>
     <task classkmad="tache.Tache" id-task-point="K3" id-task-subtasks-list="K7 K97 K12 K47 " idkmad="K4">
-        <task-name>EnvoyerTicket</task-name>
+        <task-name>CommanderTicket</task-name>
         <task-numero>Racine   </task-numero>
         <task-observation/>
         <task-executant>ABS</task-executant>
@@ -228,7 +228,7 @@
             </task>
         </task>
         <task classkmad="tache.Tache" id-task-point="K46" idkmad="K47">
-            <task-name>TelechargerTicket</task-name>
+            <task-name>EnvoyerTicket</task-name>
             <task-numero>4</task-numero>
             <task-observation/>
             <task-executant>INT</task-executant>
