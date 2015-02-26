@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE kmad-model SYSTEM "file:KMADModelJT.dtd">
+<kmad-model version="1.2">
+    <project classkmad="project.Project" id-project-information="K2" idkmad="K1">
+        <projectinformation classkmad="project.GeneralInformation" idkmad="K2">
+            <projectinformation-date>04/02/2015</projectinformation-date>
+        </projectinformation>
+    </project>
+    <task classkmad="tache.Tache" id-task-point="K3" id-task-subtasks-list="K23 K26 K74 K29 K32 " idkmad="K4">
+        <task-name>EnregisterSportif</task-name>
+        <task-numero>Racine   </task-numero>
+        <task-observation/>
+        <task-executant>ABS</task-executant>
+        <task-modality>COGN</task-modality>
+        <task-optional>false</task-optional>
+        <task-interruptible>false</task-interruptible>
+        <task-decomposition>SEQ</task-decomposition>
+        <task-precondition>true</task-precondition>
+        <task-effetsdebord>void</task-effetsdebord>
+        <task-iteration>[1]</task-iteration>
+        <point classkmad="tache.Point" idkmad="K3">
+            <point-x>460</point-x>
+            <point-y>49</point-y>
+        </point>
+        <task classkmad="tache.Tache" id-task-point="K22" idkmad="K23">
+            <task-name>RentrerNom</task-name>
+            <task-numero>1</task-numero>
+            <task-observation/>
+            <task-executant>INT</task-executant>
+            <task-modality>COGN</task-modality>
+            <task-optional>false</task-optional>
+            <task-interruptible>false</task-interruptible>
+            <task-decomposition>LEAF</task-decomposition>
+            <task-precondition>true</task-precondition>
+            <task-effetsdebord>void</task-effetsdebord>
+            <task-iteration>[1]</task-iteration>
+            <point classkmad="tache.Point" idkmad="K22">
+                <point-x>44</point-x>
+                <point-y>242</point-y>
+            </point>
+        </task>
+        <task classkmad="tache.Tache" id-task-point="K25" idkmad="K26">
+            <task-name>RentrerPrenom</task-name>
+            <task-numero>2</task-numero>
+            <task-observation/>
+            <task-executant>INT</task-executant>
+            <task-modality>COGN</task-modality>
+            <task-optional>false</task-optional>
+            <task-interruptible>false</task-interruptible>
+            <task-decomposition>LEAF</task-decomposition>
+            <task-precondition>true</task-precondition>
+            <task-effetsdebord>void</task-effetsdebord>
+            <task-iteration>[1]</task-iteration>
+            <point classkmad="tache.Point" idkmad="K25">
+                <point-x>226</point-x>
+                <point-y>242</point-y>
+            </point>
+        </task>
+        <task classkmad="tache.Tache" id-task-point="K73" idkmad="K74">
+            <task-name>RentrerDateNaissance</task-name>
+            <task-numero>3</task-numero>
+            <task-observation/>
+            <task-executant>INT</task-executant>
+            <task-modality>COGN</task-modality>
+            <task-optional>false</task-optional>
+            <task-interruptible>false</task-interruptible>
+            <task-decomposition>LEAF</task-decomposition>
+            <task-precondition>true</task-precondition>
+            <task-effetsdebord>void</task-effetsdebord>
+            <task-iteration>[1]</task-iteration>
+            <point classkmad="tache.Point" idkmad="K73">
+                <point-x>405</point-x>
+                <point-y>242</point-y>
+            </point>
+        </task>
+        <task classkmad="tache.Tache" id-task-point="K28" idkmad="K29">
+            <task-name>RentrerPays</task-name>
+            <task-numero>4</task-numero>
+            <task-observation/>
+            <task-executant>INT</task-executant>
+            <task-modality>COGN</task-modality>
+            <task-optional>false</task-optional>
+            <task-interruptible>false</task-interruptible>
+            <task-decomposition>LEAF</task-decomposition>
+            <task-precondition>true</task-precondition>
+            <task-effetsdebord>void</task-effetsdebord>
+            <task-iteration>[1]</task-iteration>
+            <point classkmad="tache.Point" idkmad="K28">
+                <point-x>652</point-x>
+                <point-y>242</point-y>
+            </point>
+        </task>
+        <task classkmad="tache.Tache" id-task-point="K31" idkmad="K32">
+            <task-name>RentrerTypeHandicap</task-name>
+            <task-numero>5</task-numero>
+            <task-observation/>
+            <task-executant>INT</task-executant>
+            <task-modality>COGN</task-modality>
+            <task-optional>false</task-optional>
+            <task-interruptible>false</task-interruptible>
+            <task-decomposition>LEAF</task-decomposition>
+            <task-precondition>true</task-precondition>
+            <task-descriptionprecondition>Est-ce une competition Handi-sport ?</task-descriptionprecondition>
+            <task-effetsdebord>void</task-effetsdebord>
+            <task-iteration>[1]</task-iteration>
+            <point classkmad="tache.Point" idkmad="K31">
+                <point-x>870</point-x>
+                <point-y>242</point-y>
+            </point>
+        </task>
+    </task>
+</kmad-model>
