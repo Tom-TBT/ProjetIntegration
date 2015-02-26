@@ -2,7 +2,7 @@
 <!DOCTYPE kmad-model SYSTEM "file:KMADModelJT.dtd">
 <kmad-model version="1.2">
     <project classkmad="project.Project" idkmad="K1"/>
-    <task classkmad="tache.Tache" id-task-point="K3" id-task-subtasks-list="K10 K43 K40 " idkmad="K4">
+    <task classkmad="tache.Tache" id-task-point="K3" id-task-subtasks-list="K10 K43 K66 " idkmad="K4">
         <task-name>EnregistrerEpreuve</task-name>
         <task-numero>Racine   </task-numero>
         <task-observation/>
@@ -155,8 +155,8 @@
                 </task>
             </task>
         </task>
-        <task classkmad="tache.Tache" id-task-point="K39" idkmad="K40">
-            <task-name>EnregistrerEpreuves</task-name>
+        <task classkmad="tache.Tache" id-task-point="K65" idkmad="K66">
+            <task-name>Choisir Genre</task-name>
             <task-numero>3</task-numero>
             <task-observation/>
             <task-executant>INT</task-executant>
@@ -167,8 +167,8 @@
             <task-precondition>true</task-precondition>
             <task-effetsdebord>void</task-effetsdebord>
             <task-iteration>[1]</task-iteration>
-            <point classkmad="tache.Point" idkmad="K39">
-                <point-x>932</point-x>
+            <point classkmad="tache.Point" idkmad="K65">
+                <point-x>927</point-x>
                 <point-y>173</point-y>
             </point>
         </task>
