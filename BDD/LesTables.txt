@@ -4,7 +4,7 @@ LesDisciplines(idDiscipline, nom)
 
 LesDelegations(idDelegation, pays)
 
-LesSportifs(idSportif, idDelegation, nom, prenom, dateNaissance, handicap)
+LesSportifs(idSportif, idDelegation, nom, prenom, dateNaissance)
 
 LesBatiments(idBatiment, nom, adresse);
 
