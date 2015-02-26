@@ -6,7 +6,7 @@
             <projectinformation-compagny>m2cci</projectinformation-compagny>
         </projectinformation>
     </project>
-    <task classkmad="tache.Tache" id-task-point="K3" id-task-subtasks-list="K7 K97 K12 K16 K47 " idkmad="K4">
+    <task classkmad="tache.Tache" id-task-point="K3" id-task-subtasks-list="K7 K97 K12 K47 " idkmad="K4">
         <task-name>AcheterTicket</task-name>
         <task-numero>Racine   </task-numero>
         <task-observation/>
@@ -125,8 +125,8 @@
                 <point-y>215</point-y>
             </point>
         </task>
-        <task classkmad="tache.Tache" id-task-point="K15" idkmad="K16">
-            <task-name>SelectionnerFormatTicket</task-name>
+        <task classkmad="tache.Tache" id-task-point="K46" idkmad="K47">
+            <task-name>TelechargerTicket</task-name>
             <task-numero>4</task-numero>
             <task-observation/>
             <task-executant>INT</task-executant>
@@ -137,26 +137,9 @@
             <task-precondition>true</task-precondition>
             <task-effetsdebord>void</task-effetsdebord>
             <task-iteration>[1]</task-iteration>
-            <point classkmad="tache.Point" idkmad="K15">
-                <point-x>1374</point-x>
-                <point-y>215</point-y>
-            </point>
-        </task>
-        <task classkmad="tache.Tache" id-task-point="K46" idkmad="K47">
-            <task-name>TelechargerTicket</task-name>
-            <task-numero>5</task-numero>
-            <task-observation/>
-            <task-executant>SYS</task-executant>
-            <task-modality>COGN</task-modality>
-            <task-optional>false</task-optional>
-            <task-interruptible>false</task-interruptible>
-            <task-decomposition>LEAF</task-decomposition>
-            <task-precondition>true</task-precondition>
-            <task-effetsdebord>void</task-effetsdebord>
-            <task-iteration>[1]</task-iteration>
             <point classkmad="tache.Point" idkmad="K46">
-                <point-x>1568</point-x>
-                <point-y>185</point-y>
+                <point-x>1412</point-x>
+                <point-y>215</point-y>
             </point>
         </task>
     </task>
