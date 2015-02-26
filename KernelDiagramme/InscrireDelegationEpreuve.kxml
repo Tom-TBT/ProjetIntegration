@@ -23,7 +23,7 @@
             <point-y>7</point-y>
         </point>
         <task classkmad="tache.Tache" id-task-point="K6" idkmad="K7">
-            <task-name>ChoisirNationalite</task-name>
+            <task-name>ChoisirPays</task-name>
             <task-numero>1</task-numero>
             <task-observation/>
             <task-executant>INT</task-executant>
@@ -145,7 +145,7 @@
             </task>
         </task>
         <task classkmad="tache.Tache" id-task-point="K27" idkmad="K28">
-            <task-name>AssignerLogement</task-name>
+            <task-name>AssignerLogements</task-name>
             <task-numero>4</task-numero>
             <task-observation/>
             <task-executant>SYS</task-executant>

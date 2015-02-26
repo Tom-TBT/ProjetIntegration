@@ -7,7 +7,7 @@
         </projectinformation>
     </project>
     <task classkmad="tache.Tache" id-task-point="K3" id-task-subtasks-list="K23 K26 K74 K29 " idkmad="K4">
-        <task-name>EnregisterSportif</task-name>
+        <task-name>EnregistrerSportif</task-name>
         <task-numero>Racine   </task-numero>
         <task-observation/>
         <task-executant>ABS</task-executant>

@@ -23,7 +23,7 @@
             <point-y>35</point-y>
         </point>
         <task classkmad="tache.Tache" id-task-point="K6" idkmad="K7">
-            <task-name>DemanderNationalite</task-name>
+            <task-name>DemanderPays</task-name>
             <task-numero>1</task-numero>
             <task-observation/>
             <task-executant>INT</task-executant>
@@ -57,7 +57,7 @@
                 <point-y>227</point-y>
             </point>
             <task classkmad="tache.Tache" id-task-point="K9" idkmad="K10">
-                <task-name>ChercherSportifs</task-name>
+                <task-name>ChercherSportif</task-name>
                 <task-numero>2.1</task-numero>
                 <task-observation/>
                 <task-executant>SYS</task-executant>

@@ -69,8 +69,8 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K64">
-                    <point-x>189</point-x>
-                    <point-y>370</point-y>
+                    <point-x>184</point-x>
+                    <point-y>412</point-y>
                 </point>
             </task>
             <task classkmad="tache.Tache" id-task-point="K28" idkmad="K29">
@@ -231,7 +231,7 @@
             <task-name>EnvoyerTicket</task-name>
             <task-numero>4</task-numero>
             <task-observation/>
-            <task-executant>INT</task-executant>
+            <task-executant>SYS</task-executant>
             <task-modality>COGN</task-modality>
             <task-optional>false</task-optional>
             <task-interruptible>false</task-interruptible>
