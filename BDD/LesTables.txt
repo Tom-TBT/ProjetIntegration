@@ -1,4 +1,4 @@
-LesEpreuves(idEpreuve, idDiscipline, nom, nbPersonnes, genre)
+﻿LesEpreuves(idEpreuve, idDiscipline, nom, nbPersonnes, genre)
 
 LesDisciplines(idDiscipline, nom)
 
@@ -12,6 +12,7 @@ LesChambres(idChambre, idBatiment, nbPlaces)
 
 LesCompetitions(idCompetitions, pays, date);
 
+LesTickets(idTicket, prix, estPhysique);
 
 
 Contraintes d'integritées gérées par la BDD:
