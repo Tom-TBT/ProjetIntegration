@@ -20,6 +20,8 @@ LesChambres(idChambre, idBatiment, nbPlaces)
 
 LesBatiments(idBatiment, nom, adresse)
 
+LesResultats(idCompetition,idEpreuve,idSportif,score,place)
+
 
 
 Contraintes d'integritées gérées par la BDD:
@@ -45,18 +47,13 @@ LesEpreuves[nbPersonnes] > 0
 LesTickets[prix] >= 0
 
 
-Contraintes d'intégritées gérées par le logiciel:
-
-LesEpreuves[genre] ⊆ {F,H,M}
-
-
-
 
 Ce qu'il manque sur le diagramme :
 LesSpectateurs(idSpectateur)
 LesSportifs(idChambre)
 LesTickets(idEpreuve,idCompetition, idSpectateur)
 EpreuveSportif(idCompetition)
+LesResultats(idCompetition,idEpreuve,idSportif,score,place)
 
 
 
