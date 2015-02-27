@@ -144,22 +144,62 @@
                 </point>
             </task>
         </task>
-        <task classkmad="tache.Tache" id-task-point="K27" idkmad="K28">
-            <task-name>AssignerLogements</task-name>
+        <task classkmad="tache.Tache" id-task-point="K27" id-task-subtasks-list="K39 K42 " idkmad="K28">
+            <task-name>AssignerChambres</task-name>
             <task-numero>4</task-numero>
             <task-observation/>
             <task-executant>ABS</task-executant>
             <task-modality>COGN</task-modality>
             <task-optional>false</task-optional>
             <task-interruptible>false</task-interruptible>
-            <task-decomposition>LEAF</task-decomposition>
+            <task-decomposition>SEQ</task-decomposition>
             <task-precondition>true</task-precondition>
             <task-effetsdebord>void</task-effetsdebord>
             <task-iteration>[1]</task-iteration>
+            <task-descriptioniteration>Y-a t-il encore un sportif ?</task-descriptioniteration>
             <point classkmad="tache.Point" idkmad="K27">
+<<<<<<< 07b7e60decc71de0baad96a365672a5a2226e6e1
                 <point-x>1071</point-x>
                 <point-y>162</point-y>
+=======
+                <point-x>1279</point-x>
+                <point-y>139</point-y>
+>>>>>>> 992a380167b07c66c3b4443ce76e8c3f4bc9ed86
             </point>
+            <task classkmad="tache.Tache" id-task-point="K38" idkmad="K39">
+                <task-name>AfficherPropositionsChambre</task-name>
+                <task-numero>4.1</task-numero>
+                <task-observation/>
+                <task-executant>SYS</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>LEAF</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K38">
+                    <point-x>1102</point-x>
+                    <point-y>299</point-y>
+                </point>
+            </task>
+            <task classkmad="tache.Tache" id-task-point="K41" idkmad="K42">
+                <task-name>ChoisirChambre</task-name>
+                <task-numero>4.2</task-numero>
+                <task-observation/>
+                <task-executant>INT</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>LEAF</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K41">
+                    <point-x>1377</point-x>
+                    <point-y>299</point-y>
+                </point>
+            </task>
         </task>
     </task>
 </kmad-model>

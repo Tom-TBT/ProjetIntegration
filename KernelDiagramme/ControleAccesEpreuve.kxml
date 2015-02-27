@@ -7,7 +7,7 @@
         </projectinformation>
     </project>
     <task classkmad="tache.Tache" id-task-point="K3" id-task-subtasks-list="K7 K10 " idkmad="K4">
-        <task-name>ControlerAccesEpreuve</task-name>
+        <task-name>SurveillerEpreuve</task-name>
         <task-numero>Racine   </task-numero>
         <task-observation/>
         <task-executant>ABS</task-executant>
@@ -22,8 +22,8 @@
             <point-x>497</point-x>
             <point-y>76</point-y>
         </point>
-        <task classkmad="tache.Tache" id-task-point="K6" id-task-subtasks-list="K12 K14 " idkmad="K7">
-            <task-name>ControlerAccesSportif</task-name>
+        <task classkmad="tache.Tache" id-task-point="K6" id-task-subtasks-list="K12 K27 K14 " idkmad="K7">
+            <task-name>RegarderZone</task-name>
             <task-numero>1</task-numero>
             <task-observation/>
             <task-executant>ABS</task-executant>
@@ -39,10 +39,10 @@
                 <point-y>246</point-y>
             </point>
             <task classkmad="tache.Tache" id-task-point="K11" idkmad="K12">
-                <task-name>PresenterPass</task-name>
+                <task-name>AfficherListeZones</task-name>
                 <task-numero>1.1</task-numero>
                 <task-observation/>
-                <task-executant>USER</task-executant>
+                <task-executant>SYS</task-executant>
                 <task-modality>COGN</task-modality>
                 <task-optional>false</task-optional>
                 <task-interruptible>false</task-interruptible>
@@ -51,13 +51,30 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K11">
-                    <point-x>58</point-x>
+                    <point-x>0</point-x>
+                    <point-y>440</point-y>
+                </point>
+            </task>
+            <task classkmad="tache.Tache" id-task-point="K26" idkmad="K27">
+                <task-name>ChoisirZone</task-name>
+                <task-numero>1.2</task-numero>
+                <task-observation/>
+                <task-executant>INT</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>LEAF</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K26">
+                    <point-x>226</point-x>
                     <point-y>440</point-y>
                 </point>
             </task>
             <task classkmad="tache.Tache" id-task-point="K13" idkmad="K14">
-                <task-name>VerifierAutorisationAcces</task-name>
-                <task-numero>1.2</task-numero>
+                <task-name>AfficherCamera</task-name>
+                <task-numero>1.3</task-numero>
                 <task-observation/>
                 <task-executant>SYS</task-executant>
                 <task-modality>COGN</task-modality>
@@ -68,13 +85,13 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K13">
-                    <point-x>287</point-x>
+                    <point-x>386</point-x>
                     <point-y>440</point-y>
                 </point>
             </task>
         </task>
-        <task classkmad="tache.Tache" id-task-point="K9" id-task-subtasks-list="K16 K18 " idkmad="K10">
-            <task-name>ControlerAccesSpectateur</task-name>
+        <task classkmad="tache.Tache" id-task-point="K9" id-task-subtasks-list="K16 K30 K18 " idkmad="K10">
+            <task-name>SurveillerZoneSpectateur</task-name>
             <task-numero>2</task-numero>
             <task-observation/>
             <task-executant>ABS</task-executant>
@@ -90,10 +107,10 @@
                 <point-y>246</point-y>
             </point>
             <task classkmad="tache.Tache" id-task-point="K15" idkmad="K16">
-                <task-name>PresenterTicket</task-name>
+                <task-name>AfficherListeZones</task-name>
                 <task-numero>2.1</task-numero>
                 <task-observation/>
-                <task-executant>USER</task-executant>
+                <task-executant>SYS</task-executant>
                 <task-modality>COGN</task-modality>
                 <task-optional>false</task-optional>
                 <task-interruptible>false</task-interruptible>
@@ -102,13 +119,30 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K15">
-                    <point-x>610</point-x>
+                    <point-x>581</point-x>
+                    <point-y>440</point-y>
+                </point>
+            </task>
+            <task classkmad="tache.Tache" id-task-point="K29" idkmad="K30">
+                <task-name>ChoisirZone</task-name>
+                <task-numero>2.2</task-numero>
+                <task-observation/>
+                <task-executant>INT</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>LEAF</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K29">
+                    <point-x>818</point-x>
                     <point-y>440</point-y>
                 </point>
             </task>
             <task classkmad="tache.Tache" id-task-point="K17" idkmad="K18">
-                <task-name>VerifierAutorisationAcces</task-name>
-                <task-numero>2.2</task-numero>
+                <task-name>AfficherListeSpectateurs</task-name>
+                <task-numero>2.3</task-numero>
                 <task-observation/>
                 <task-executant>SYS</task-executant>
                 <task-modality>COGN</task-modality>
@@ -119,7 +153,7 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K17">
-                    <point-x>931</point-x>
+                    <point-x>974</point-x>
                     <point-y>440</point-y>
                 </point>
             </task>
