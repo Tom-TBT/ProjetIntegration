@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE kmad-model SYSTEM "file:KMADModelJT.dtd">
 <kmad-model version="1.2">
-    <project classkmad="project.Project" id-project-information="K2" idkmad="K1">
-        <projectinformation classkmad="project.GeneralInformation" idkmad="K2">
-            <projectinformation-date>25-02-2015</projectinformation-date>
-        </projectinformation>
-    </project>
+    <project classkmad="project.Project" idkmad="K1"/>
     <task classkmad="tache.Tache" id-task-point="K3" id-task-subtasks-list="K7 K10 K19 K28 " idkmad="K4">
         <task-name>InscrireDelegationEpreuve</task-name>
         <task-numero>Racine   </task-numero>
@@ -19,8 +15,8 @@
         <task-effetsdebord>void</task-effetsdebord>
         <task-iteration>[1]</task-iteration>
         <point classkmad="tache.Point" idkmad="K3">
-            <point-x>572</point-x>
-            <point-y>7</point-y>
+            <point-x>556</point-x>
+            <point-y>0</point-y>
         </point>
         <task classkmad="tache.Tache" id-task-point="K6" idkmad="K7">
             <task-name>ChoisirPays</task-name>
@@ -35,12 +31,12 @@
             <task-effetsdebord>void</task-effetsdebord>
             <task-iteration>[1]</task-iteration>
             <point classkmad="tache.Point" idkmad="K6">
-                <point-x>78</point-x>
-                <point-y>162</point-y>
+                <point-x>65</point-x>
+                <point-y>148</point-y>
             </point>
         </task>
         <task classkmad="tache.Tache" id-task-point="K9" id-task-subtasks-list="K13 K16 " idkmad="K10">
-            <task-name>InscrireSportifIndividuel</task-name>
+            <task-name>InscrireSportIndividuel</task-name>
             <task-numero>2</task-numero>
             <task-observation/>
             <task-executant>ABS</task-executant>
@@ -51,10 +47,10 @@
             <task-precondition>true</task-precondition>
             <task-effetsdebord>void</task-effetsdebord>
             <task-iteration>[1]</task-iteration>
-            <task-descriptioniteration>Il y a un nouveau sport individuel encore?</task-descriptioniteration>
+            <task-descriptioniteration>Y-a t-il encore un sport individuel ?</task-descriptioniteration>
             <point classkmad="tache.Point" idkmad="K9">
-                <point-x>359</point-x>
-                <point-y>162</point-y>
+                <point-x>322</point-x>
+                <point-y>157</point-y>
             </point>
             <task classkmad="tache.Tache" id-task-point="K12" idkmad="K13">
                 <task-name>ChoisirSportif</task-name>
@@ -69,8 +65,8 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K12">
-                    <point-x>295</point-x>
-                    <point-y>326</point-y>
+                    <point-x>185</point-x>
+                    <point-y>314</point-y>
                 </point>
             </task>
             <task classkmad="tache.Tache" id-task-point="K15" idkmad="K16">
@@ -86,8 +82,8 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K15">
-                    <point-x>466</point-x>
-                    <point-y>326</point-y>
+                    <point-x>395</point-x>
+                    <point-y>314</point-y>
                 </point>
             </task>
         </task>
@@ -103,10 +99,9 @@
             <task-precondition>true</task-precondition>
             <task-effetsdebord>void</task-effetsdebord>
             <task-iteration>[1]</task-iteration>
-            <task-descriptioniteration>Il y a un sport en equipe encore?</task-descriptioniteration>
             <point classkmad="tache.Point" idkmad="K18">
-                <point-x>846</point-x>
-                <point-y>162</point-y>
+                <point-x>762</point-x>
+                <point-y>157</point-y>
             </point>
             <task classkmad="tache.Tache" id-task-point="K21" idkmad="K22">
                 <task-name>ChoisirEpreuve</task-name>
@@ -121,8 +116,8 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K21">
-                    <point-x>710</point-x>
-                    <point-y>326</point-y>
+                    <point-x>631</point-x>
+                    <point-y>314</point-y>
                 </point>
             </task>
             <task classkmad="tache.Tache" id-task-point="K24" idkmad="K25">
@@ -137,29 +132,64 @@
                 <task-precondition>true</task-precondition>
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
-                <task-descriptioniteration>Encore un nouveau sportif?</task-descriptioniteration>
+                <task-descriptioniteration>Y-a t-il encore un sportif ?</task-descriptioniteration>
                 <point classkmad="tache.Point" idkmad="K24">
-                    <point-x>979</point-x>
-                    <point-y>326</point-y>
+                    <point-x>830</point-x>
+                    <point-y>314</point-y>
                 </point>
             </task>
         </task>
-        <task classkmad="tache.Tache" id-task-point="K27" idkmad="K28">
-            <task-name>AssignerLogements</task-name>
+        <task classkmad="tache.Tache" id-task-point="K27" id-task-subtasks-list="K31 K34 " idkmad="K28">
+            <task-name>AssignerChambre</task-name>
             <task-numero>4</task-numero>
             <task-observation/>
             <task-executant>ABS</task-executant>
             <task-modality>COGN</task-modality>
             <task-optional>false</task-optional>
             <task-interruptible>false</task-interruptible>
-            <task-decomposition>LEAF</task-decomposition>
+            <task-decomposition>SEQ</task-decomposition>
             <task-precondition>true</task-precondition>
             <task-effetsdebord>void</task-effetsdebord>
             <task-iteration>[1]</task-iteration>
+            <task-descriptioniteration>Y-a t-il encore un sportif ?</task-descriptioniteration>
             <point classkmad="tache.Point" idkmad="K27">
-                <point-x>1071</point-x>
-                <point-y>162</point-y>
+                <point-x>1085</point-x>
+                <point-y>148</point-y>
             </point>
+            <task classkmad="tache.Tache" id-task-point="K30" idkmad="K31">
+                <task-name>AfficherChambres</task-name>
+                <task-numero>4.1</task-numero>
+                <task-observation/>
+                <task-executant>SYS</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>LEAF</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K30">
+                    <point-x>995</point-x>
+                    <point-y>314</point-y>
+                </point>
+            </task>
+            <task classkmad="tache.Tache" id-task-point="K33" idkmad="K34">
+                <task-name>ChoisirChambre</task-name>
+                <task-numero>4.2</task-numero>
+                <task-observation/>
+                <task-executant>INT</task-executant>
+                <task-modality>COGN</task-modality>
+                <task-optional>false</task-optional>
+                <task-interruptible>false</task-interruptible>
+                <task-decomposition>LEAF</task-decomposition>
+                <task-precondition>true</task-precondition>
+                <task-effetsdebord>void</task-effetsdebord>
+                <task-iteration>[1]</task-iteration>
+                <point classkmad="tache.Point" idkmad="K33">
+                    <point-x>1174</point-x>
+                    <point-y>314</point-y>
+                </point>
+            </task>
         </task>
     </task>
 </kmad-model>
