@@ -51,7 +51,7 @@
             <task-precondition>true</task-precondition>
             <task-effetsdebord>void</task-effetsdebord>
             <task-iteration>[1]</task-iteration>
-            <task-descriptioniteration>Nombre de sportifs</task-descriptioniteration>
+            <task-descriptioniteration>Y-a t-il encore un sportif?</task-descriptioniteration>
             <point classkmad="tache.Point" idkmad="K15">
                 <point-x>737</point-x>
                 <point-y>227</point-y>
