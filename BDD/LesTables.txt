@@ -1,33 +1,46 @@
-﻿LesEpreuves(idEpreuve, idDiscipline, nom, nbPersonnes, genre)
+﻿LesEpreuves(idEpreuve, idDiscipline, nom, nbPersonnes)
 
 LesDisciplines(idDiscipline, nom)
 
-LesDelegations(idDelegation, pays)
+LesDelegations(idDelegation)
 
-LesSportifs(idSportif, idDelegation, nom, prenom, dateNaissance)
+LesSportifs(idSportif, idDelegation, nom, prenom, dateNaissance,pays, estFemme)
 
 LesBatiments(idBatiment, nom, adresse);
 
 LesChambres(idChambre, idBatiment, nbPlaces)
 
-LesCompetitions(idCompetitions, pays, date);
+LesCompetitions(idCompetition, pays, dateDebut, dateFin);
 
 LesTickets(idTicket, prix, estPhysique);
 
+LesSpectateurs(non, prenom, adresse,telephone);
+
+LesEpreuveCompetitions(idEpreuve, idCompetition, date, lieu, genre);
+
+LesEpreuveSportifs(idEpreuve,idSportif);
+_______________________________________________
+
 
 Contraintes d'integritées gérées par la BDD:
+---------------------------------------------------
 
 LesEpreuves[idDiscipline] ⊆ LesDisciplines[idDiscipline]
 LesSportifs[idDelegation] ⊆ LesDelegations[idDelegation]
 LesChambres[idBatiment] ⊆ LesBatiments[idBatiment]
+LesEpreuveSportifs[idEpreuve] ⊆ LesEpreuves[idEpreuve];
+
 
 LesEpreuves[nbPersonnes] > 0
 LesChambres[nbPlaces] ⊆ {1-10}
+____________________________________________________
 
 
-Contraintes d'intégritées gérées par le logiciel:
+Contraintes d'intégritées gérées par l'application:
+---------------------------------------------------
 
-LesEpreuves[genre] ⊆ {F,H,M}
-Lors d'un ajout d'une compétition : LesCompetitions[date] > dateActuelle
+LesEpreuves[genre] ⊆ {Femme,Homme,Mixte}
 
+Lors d'un ajout d'une compétition : LesCompetitions[dateDebut] > dateActuelle et LesCompetitions[dateFin] > LesCompetitions[dateDebut]
 
+Occupation des chambres : Dans une chambre il ne peut y avoir que des sportifs du même sexe.
