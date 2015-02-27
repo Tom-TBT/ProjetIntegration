@@ -24,7 +24,7 @@ LesResultats(idCompetition,idEpreuve,idSportif,score,place)
 
 
 
-Contraintes d'integritées gérées par la BDD:
+CONTRAINTES D'INTEGRITE:
 
 LesEpreuves[idDiscipline] ⊆ LesDisciplines[idDiscipline]
 LesSportifs[idDelegation] ⊆ LesDelegations[idDelegation]
@@ -48,7 +48,7 @@ LesTickets[prix] >= 0
 
 
 
-Ce qu'il manque sur le diagramme :
+CE QU'IL MANQUE AU DESSIN
 LesSpectateurs(idSpectateur)
 LesSportifs(idChambre)
 LesTickets(idEpreuve,idCompetition, idSpectateur)
