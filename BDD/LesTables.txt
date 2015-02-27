@@ -2,45 +2,61 @@
 
 LesDisciplines(idDiscipline, nom)
 
+EpreuveSportif(idEpreuve, idCompetition, idSportif) 								// Classe associative
+
+EpreuveCompetition(idEpreuve, idCompetition, date, lieu, genre) 	// Classe associative
+
+LesCompetitions(idCompetition, pays, dateDebut, dateFin)
+
+LesTickets(idTicket, prix, estPhysique, idEpreuve, idCompetition, idSpectateur)
+
+LesSpectateurs(idSpectateur, nom, prenom, adresse, telephone)
+
+LesSportifs(idSportif, idDelegation, nom, prenom, dateNaissance, estFemme, pays, idChambre)
+
 LesDelegations(idDelegation)
-
-LesSportifs(idSportif, idDelegation, nom, prenom, dateNaissance,pays, estFemme)
-
-LesBatiments(idBatiment, nom, adresse);
 
 LesChambres(idChambre, idBatiment, nbPlaces)
 
-LesCompetitions(idCompetition, pays, dateDebut, dateFin);
+LesBatiments(idBatiment, nom, adresse)
 
-LesTickets(idTicket, prix, estPhysique);
-
-LesSpectateurs(non, prenom, adresse,telephone);
-
-LesEpreuveCompetitions(idEpreuve, idCompetition, date, lieu, genre);
-
-LesEpreuveSportifs(idEpreuve,idSportif);
-_______________________________________________
 
 
 Contraintes d'integritées gérées par la BDD:
----------------------------------------------------
 
 LesEpreuves[idDiscipline] ⊆ LesDisciplines[idDiscipline]
 LesSportifs[idDelegation] ⊆ LesDelegations[idDelegation]
+lesSportifs[idChambre] ⊆ LesChambres[idChambre]
 LesChambres[idBatiment] ⊆ LesBatiments[idBatiment]
-LesEpreuveSportifs[idEpreuve] ⊆ LesEpreuves[idEpreuve];
+EpreuveSportif[idSportif] = LesSportifs[idSportif]
+EpreuveSportif[idEpreuve] ⊆ EpreuveCompetition[idEpreuve]
+EpreuveCompetition[idCompetition] = LesCompetitions[idCompetition]
+EpreuveCompetition[idEpreuve] ⊆ LesEpreuves[idEpreuve]
+LesEpreuves[idDiscipline] ⊆ LesDiscipline[idDiscipline]
+LesTickets[idEpreuve] ⊆ EpreuveCompetition[idEpreuve]
+LesTickets[idCompetition] ⊆ EpreuveCompetition[idCompetition]
+LesTickets[idSpectateur] ⊆ LesSpectateurs[idSpectateur]
 
-
-LesEpreuves[nbPersonnes] > 0
 LesChambres[nbPlaces] ⊆ {1-10}
-____________________________________________________
+LesCompetitions[dateFin] > LesCompetitions[dateDebut]
+EpreuveCompetition[date] >= LesCompetitions[dateDebut]
+EpreuveCompetition[date] < LesCompetitions[dateFin]
+LesEpreuves[nbPersonnes] > 0
+LesTickets[prix] >= 0
 
 
-Contraintes d'intégritées gérées par l'application:
----------------------------------------------------
+Contraintes d'intégritées gérées par le logiciel:
 
-LesEpreuves[genre] ⊆ {Femme,Homme,Mixte}
+LesEpreuves[genre] ⊆ {F,H,M}
 
-Lors d'un ajout d'une compétition : LesCompetitions[dateDebut] > dateActuelle et LesCompetitions[dateFin] > LesCompetitions[dateDebut]
 
-Occupation des chambres : Dans une chambre il ne peut y avoir que des sportifs du même sexe.
+
+
+Ce qu'il manque sur le diagramme :
+LesSpectateurs(idSpectateur)
+LesSportifs(idChambre)
+LesTickets(idEpreuve,idCompetition, idSpectateur)
+EpreuveSportif(idCompetition)
+
+
+

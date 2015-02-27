@@ -36,7 +36,7 @@
             <task-iteration>[1]</task-iteration>
             <task-descriptioniteration>tant que je veux un autre ticket </task-descriptioniteration>
             <point classkmad="tache.Point" idkmad="K6">
-                <point-x>166</point-x>
+                <point-x>206</point-x>
                 <point-y>180</point-y>
             </point>
             <task classkmad="tache.Tache" id-task-point="K58" idkmad="K59">
@@ -52,8 +52,8 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K58">
-                    <point-x>10</point-x>
-                    <point-y>370</point-y>
+                    <point-x>0</point-x>
+                    <point-y>326</point-y>
                 </point>
             </task>
             <task classkmad="tache.Tache" id-task-point="K64" idkmad="K65">
@@ -69,8 +69,8 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K64">
-                    <point-x>181</point-x>
-                    <point-y>370</point-y>
+                    <point-x>139</point-x>
+                    <point-y>410</point-y>
                 </point>
             </task>
             <task classkmad="tache.Tache" id-task-point="K28" idkmad="K29">
@@ -86,8 +86,8 @@
                 <task-effetsdebord>void</task-effetsdebord>
                 <task-iteration>[1]</task-iteration>
                 <point classkmad="tache.Point" idkmad="K28">
-                    <point-x>393</point-x>
-                    <point-y>370</point-y>
+                    <point-x>336</point-x>
+                    <point-y>326</point-y>
                 </point>
             </task>
         </task>
@@ -124,7 +124,7 @@
                 <point-x>898</point-x>
                 <point-y>180</point-y>
             </point>
-            <task classkmad="tache.Tache" id-task-point="K109" id-task-subtasks-list="K113 K116 K119 K122 " idkmad="K110">
+            <task classkmad="tache.Tache" id-task-point="K109" id-task-subtasks-list="K113 K116 K119 K122 K138 " idkmad="K110">
                 <task-name>RentrerDonneesFacturation</task-name>
                 <task-numero>3.1</task-numero>
                 <task-observation/>
@@ -153,7 +153,7 @@
                     <task-effetsdebord>void</task-effetsdebord>
                     <task-iteration>[1]</task-iteration>
                     <point classkmad="tache.Point" idkmad="K112">
-                        <point-x>510</point-x>
+                        <point-x>398</point-x>
                         <point-y>559</point-y>
                     </point>
                 </task>
@@ -170,7 +170,7 @@
                     <task-effetsdebord>void</task-effetsdebord>
                     <task-iteration>[1]</task-iteration>
                     <point classkmad="tache.Point" idkmad="K115">
-                        <point-x>669</point-x>
+                        <point-x>528</point-x>
                         <point-y>559</point-y>
                     </point>
                 </task>
@@ -187,7 +187,7 @@
                     <task-effetsdebord>void</task-effetsdebord>
                     <task-iteration>[1]</task-iteration>
                     <point classkmad="tache.Point" idkmad="K118">
-                        <point-x>830</point-x>
+                        <point-x>694</point-x>
                         <point-y>559</point-y>
                     </point>
                 </task>
@@ -204,7 +204,24 @@
                     <task-effetsdebord>void</task-effetsdebord>
                     <task-iteration>[1]</task-iteration>
                     <point classkmad="tache.Point" idkmad="K121">
-                        <point-x>978</point-x>
+                        <point-x>841</point-x>
+                        <point-y>559</point-y>
+                    </point>
+                </task>
+                <task classkmad="tache.Tache" id-task-point="K137" idkmad="K138">
+                    <task-name>RentrerAdresseMail</task-name>
+                    <task-numero>3.1.5</task-numero>
+                    <task-observation/>
+                    <task-executant>INT</task-executant>
+                    <task-modality>COGN</task-modality>
+                    <task-optional>false</task-optional>
+                    <task-interruptible>false</task-interruptible>
+                    <task-decomposition>LEAF</task-decomposition>
+                    <task-precondition>true</task-precondition>
+                    <task-effetsdebord>void</task-effetsdebord>
+                    <task-iteration>[1]</task-iteration>
+                    <point classkmad="tache.Point" idkmad="K137">
+                        <point-x>1018</point-x>
                         <point-y>559</point-y>
                     </point>
                 </task>
