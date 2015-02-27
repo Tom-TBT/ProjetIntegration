@@ -6,7 +6,7 @@
             <projectinformation-compagny>M2CCI_1</projectinformation-compagny>
         </projectinformation>
     </project>
-    <task classkmad="tache.Tache" id-task-point="K3" id-task-subtasks-list="K27 K48 K58 K30 K56 K17 " idkmad="K4">
+    <task classkmad="tache.Tache" id-task-point="K3" id-task-subtasks-list="K27 K48 K30 K56 K17 " idkmad="K4">
         <task-name>CommercialiserTicket</task-name>
         <task-numero>Racine   </task-numero>
         <task-observation/>
@@ -53,30 +53,13 @@
             <task-effetsdebord>void</task-effetsdebord>
             <task-iteration>[1]</task-iteration>
             <point classkmad="tache.Point" idkmad="K47">
-                <point-x>203</point-x>
-                <point-y>231</point-y>
-            </point>
-        </task>
-        <task classkmad="tache.Tache" id-task-point="K57" idkmad="K58">
-            <task-name>ChoisirDateEpreuve</task-name>
-            <task-numero>3</task-numero>
-            <task-observation/>
-            <task-executant>INT</task-executant>
-            <task-modality>COGN</task-modality>
-            <task-optional>false</task-optional>
-            <task-interruptible>false</task-interruptible>
-            <task-decomposition>LEAF</task-decomposition>
-            <task-precondition>true</task-precondition>
-            <task-effetsdebord>void</task-effetsdebord>
-            <task-iteration>[1]</task-iteration>
-            <point classkmad="tache.Point" idkmad="K57">
-                <point-x>353</point-x>
+                <point-x>277</point-x>
                 <point-y>231</point-y>
             </point>
         </task>
         <task classkmad="tache.Tache" id-task-point="K29" id-task-subtasks-list="K24 K15 " idkmad="K30">
             <task-name>ChoisirTicket</task-name>
-            <task-numero>4</task-numero>
+            <task-numero>3</task-numero>
             <task-observation/>
             <task-executant>ABS</task-executant>
             <task-modality>COGN</task-modality>
@@ -92,7 +75,7 @@
             </point>
             <task classkmad="tache.Tache" id-task-point="K23" idkmad="K24">
                 <task-name>SelectionnerTicketPhysique</task-name>
-                <task-numero>4.1</task-numero>
+                <task-numero>3.1</task-numero>
                 <task-observation/>
                 <task-executant>INT</task-executant>
                 <task-modality>COGN</task-modality>
@@ -109,7 +92,7 @@
             </task>
             <task classkmad="tache.Tache" id-task-point="K14" idkmad="K15">
                 <task-name>SelectionnerTicketVideo</task-name>
-                <task-numero>4.2</task-numero>
+                <task-numero>3.2</task-numero>
                 <task-observation/>
                 <task-executant>INT</task-executant>
                 <task-modality>COGN</task-modality>
@@ -127,7 +110,7 @@
         </task>
         <task classkmad="tache.Tache" id-task-point="K55" idkmad="K56">
             <task-name>AppliquerPrix</task-name>
-            <task-numero>5</task-numero>
+            <task-numero>4</task-numero>
             <task-observation/>
             <task-executant>SYS</task-executant>
             <task-modality>COGN</task-modality>
@@ -144,7 +127,7 @@
         </task>
         <task classkmad="tache.Tache" id-task-point="K16" idkmad="K17">
             <task-name>MettreTicketsEnligne</task-name>
-            <task-numero>6</task-numero>
+            <task-numero>5</task-numero>
             <task-observation/>
             <task-executant>INT</task-executant>
             <task-modality>COGN</task-modality>
